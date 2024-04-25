@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       cli:
-        description: Run by cypresscommand line
+        description: Run by cypress command line
         default: yarn cypress run
 
 jobs:
